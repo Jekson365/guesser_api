@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/02d7e413-59e3-4c32-8205-32fd199fb6ab_319978.jpg",
+      "PackagePath": "staticwebassets/images/02d7e413-59e3-4c32-8205-32fd199fb6ab_319978.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/0bdf953a-166b-414e-8ce1-e79de938a97c_merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-videoSixteenByNine3000.jpg",
+      "PackagePath": "staticwebassets/images/0bdf953a-166b-414e-8ce1-e79de938a97c_merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-videoSixteenByNine3000.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/4e9ba88c-88d7-4cf7-83c8-3ae7e28991e5_unnamed-min.jpg",
+      "PackagePath": "staticwebassets/images/4e9ba88c-88d7-4cf7-83c8-3ae7e28991e5_unnamed-min.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/56eb2714-c9e7-41c2-b41f-3aa1c515b062_gratisography-cool-cat-800x525.jpg",
+      "PackagePath": "staticwebassets/images/56eb2714-c9e7-41c2-b41f-3aa1c515b062_gratisography-cool-cat-800x525.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/58ec7be5-1c56-4973-bd75-43397f0814de_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
+      "PackagePath": "staticwebassets/images/58ec7be5-1c56-4973-bd75-43397f0814de_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/6c4a5260-e2b2-4526-ba06-29f55214fdfc_gratisography-cool-cat-800x525.jpg",
+      "PackagePath": "staticwebassets/images/6c4a5260-e2b2-4526-ba06-29f55214fdfc_gratisography-cool-cat-800x525.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/a7efa46f-961c-4fc5-b355-70b5f1bbce2a_London_Skyline_(125508655).jpeg",
+      "PackagePath": "staticwebassets/images/a7efa46f-961c-4fc5-b355-70b5f1bbce2a_London_Skyline_(125508655).jpeg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/d94f9639-0290-4d2d-a583-50b48014d2d0_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
+      "PackagePath": "staticwebassets/images/d94f9639-0290-4d2d-a583-50b48014d2d0_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/e59f01cc-ac24-451a-8598-d85a82e541c7_gratisography-cool-cat-800x525.jpg",
+      "PackagePath": "staticwebassets/images/e59f01cc-ac24-451a-8598-d85a82e541c7_gratisography-cool-cat-800x525.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.server.props",
+      "PackagePath": "build\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.server.props",
+      "PackagePath": "buildMultiTargeting\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.server.props",
+      "PackagePath": "buildTransitive\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
