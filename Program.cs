@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
-        policy => policy.WithOrigins(Environment.GetEnvironmentVariable("CORS"))
+        policy => policy.WithOrigins(Env.GetString("CORS"))
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());

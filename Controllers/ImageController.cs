@@ -35,7 +35,8 @@ namespace server.Controllers
         public async Task<IActionResult> LoadImagesQueue()
         {
 
-            var result = await _context.Images.OrderBy(x => Guid.NewGuid()).Take(5).ToListAsync();
+            var result = await _context.Images.Where(i => i.Drafted == false)
+            .Include(i => i.Sender).OrderBy(x => Guid.NewGuid()).Take(5).ToListAsync();
 
             _imageRecords = new Queue<Image>(result);
 

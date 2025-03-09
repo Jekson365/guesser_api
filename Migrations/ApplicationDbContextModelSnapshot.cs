@@ -21,13 +21,16 @@ namespace server.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("server.Models.Images", b =>
+            modelBuilder.Entity("server.Models.Image", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Drafted")
+                        .HasColumnType("boolean");
 
                     b.Property<double>("Lat")
                         .HasColumnType("double precision");
@@ -70,7 +73,7 @@ namespace server.Migrations
                     b.ToTable("Senders");
                 });
 
-            modelBuilder.Entity("server.Models.Images", b =>
+            modelBuilder.Entity("server.Models.Image", b =>
                 {
                     b.HasOne("server.Models.Sender", "Sender")
                         .WithMany()

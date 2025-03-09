@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using server.Models;
 
 namespace server.Dto
 {
@@ -11,5 +12,6 @@ namespace server.Dto
         public string TookBy { get; set; }
         public double Lat { get; set; }
         public double Long { get; set; }
+        public Sender? Sender { get; set; }
     }
 }

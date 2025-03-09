@@ -12,7 +12,7 @@ namespace server.Models
         public string? TookBy { get; set; }
         public double Lat { get; set; }
         public double Long { get; set; }
-
+        public bool Drafted { get; set; } = true;
         public int? SenderId { get; set; }
         public Sender? Sender { get; set; } = new();
     }

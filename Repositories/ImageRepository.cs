@@ -39,7 +39,12 @@ namespace server.Repositories
                     Path = uniqueFileName,
                     TookBy = createImageDto.TookBy,
                     Lat = createImageDto.Lat,
-                    Long = createImageDto.Long
+                    Long = createImageDto.Long,
+                    Sender = new Sender
+                    {
+                        Name = createImageDto.Sender.Name,
+                        Surname = createImageDto.Sender.Surname
+                    }
                 };
                 await _context.Images.AddAsync(newImageRecord);
                 await _context.SaveChangesAsync();
