@@ -25,10 +25,27 @@ namespace server.Controllers
             _imageRepo = imageInterface;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var result = _imageRepo.GetAll();
+            var result = await _imageRepo.GetAll();
             return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateDraft(UpdateImageDto updateImageDto)
+        {
+            var currentImage = await _context.Images.FindAsync(updateImageDto.ImageId);
+
+            if (currentImage == null)
+            {
+                return NotFound();
+            }
+
+            currentImage.Drafted = updateImageDto.Drafted;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { image = currentImage, updated = true });
         }
 
         [HttpGet("load")]
@@ -63,7 +80,6 @@ namespace server.Controllers
         [HttpPost("answer")]
         public IActionResult GetAnswer([FromBody] CordDto cordDto)
         {
-            // here
             double distance = CalculateDistance(cordDto.Lat, cordDto.Lng, cordDto.AnsweredLat, cordDto.AnsweredLng);
 
             var response = new

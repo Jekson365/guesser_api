@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using server.Data;
 using server.Dto;
 using server.Interfaces;
@@ -53,9 +54,11 @@ namespace server.Repositories
             return createImageDto;
         }
 
-        public Task<List<Image>> GetAll()
+        public async Task<List<Image>> GetAll()
         {
-            throw new NotImplementedException();
+            var images = await _context.Images.ToListAsync();
+
+            return images;
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D4AYMJMvnMmiJGp4J8XtVuBEIFU/2jojxiUu0szYkBg=",
+  "Hash": "qD3g5XVf7Dfb9ARaZPrX9+xaB/lPjX8BHGayzwoYrGA=",
   "Source": "server",
   "BasePath": "_content/server",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/4cbd84ef-0026-46b6-b442-e915cc2c38d8_unnamed-mVB0530V.jpg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/mapping/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nb1bx9r4v1",
+      "Integrity": "cxBoDnyVBDhf3okr203EnaluRD6cLXRuug8ClsDUTic=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg"
     },
     {
       "Identity": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/6198a4c3-4827-405f-9f88-712b255dd5a2_unnamed-mVB0530V.jpg",
@@ -679,6 +700,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-H7YH3yucz5yHAy906pyKAqifp9SEj8y2C1aRuXumM+I="
+        }
+      ]
+    },
+    {
+      "Route": "images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cxBoDnyVBDhf3okr203EnaluRD6cLXRuug8ClsDUTic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 09:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxBoDnyVBDhf3okr203EnaluRD6cLXRuug8ClsDUTic="
+        }
+      ]
+    },
+    {
+      "Route": "images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).nb1bx9r4v1.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/mapping/server/wwwroot/images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cxBoDnyVBDhf3okr203EnaluRD6cLXRuug8ClsDUTic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 09:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nb1bx9r4v1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4db0053e-9338-409f-bc6b-eda17f0138ce_London_Skyline_(125508655).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxBoDnyVBDhf3okr203EnaluRD6cLXRuug8ClsDUTic="
         }
       ]
     },
