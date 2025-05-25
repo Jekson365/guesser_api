@@ -7692,11 +7692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jeko/Desktop/css/mapping/server/server.csproj",
+      "projectUniqueName": "/home/jeko/Desktop/map_project/guesser_api/server.csproj",
       "projectName": "server",
-      "projectPath": "/home/jeko/Desktop/css/mapping/server/server.csproj",
+      "projectPath": "/home/jeko/Desktop/map_project/guesser_api/server.csproj",
       "packagesPath": "/home/jeko/.nuget/packages/",
-      "outputPath": "/home/jeko/Desktop/css/mapping/server/obj/",
+      "outputPath": "/home/jeko/Desktop/map_project/guesser_api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jeko/.nuget/NuGet/NuGet.Config"
@@ -7723,7 +7723,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -7781,7 +7781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

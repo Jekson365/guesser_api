@@ -2,16 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using server.Data;
 using server.Interfaces;
 using server.Repositories;
-using DotNetEnv;
-
-Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
-        policy => policy.WithOrigins(Env.GetString("CORS"))
+        policy => policy.WithOrigins("http://localhost:5173")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());
@@ -22,9 +19,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(o =>
 {
-    o.UseNpgsql(
-        $"Server={Env.GetString("SERVER_NAME")};PORT={Env.GetInt("PORT")};Database={Env.GetString("DB_NAME")};User Id={Env.GetString("USER")};Password={Env.GetString("PASSWORD")}"
-    );
+    o.UseNpgsql("Host=127.0.0.1;Port=5432;Database=geoguesser;Username=postgres;Password=123");
 });
 
 builder.Services.AddScoped<IImageInterface, ImageRepository>();
