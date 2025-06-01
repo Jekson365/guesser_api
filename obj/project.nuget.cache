@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FZuO8eCl5E0=",
+  "dgSpecHash": "Swq3wzz2zi4=",
   "success": true,
-  "projectFilePath": "/home/jeko/Desktop/map_project/guesser_api/server.csproj",
+  "projectFilePath": "/home/jeko/Desktop/map/guesser_api/server.csproj",
   "expectedPackageFiles": [
     "/home/jeko/.nuget/packages/dotnetenv/3.1.1/dotnetenv.3.1.1.nupkg.sha512",
     "/home/jeko/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

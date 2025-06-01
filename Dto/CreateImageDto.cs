@@ -12,6 +12,7 @@ namespace server.Dto
         public string TookBy { get; set; }
         public double Lat { get; set; }
         public double Long { get; set; }
+        public string? InstagramUrl { get; set; }
         public Sender? Sender { get; set; }
     }
 }

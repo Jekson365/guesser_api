@@ -1,3 +1,6 @@
+using guesser_api.Interfaces;
+using guesser_api.Repositories;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 using server.Data;
 using server.Interfaces;
@@ -8,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
-        policy => policy.WithOrigins("http://localhost:5173")
+        policy => policy.WithOrigins("http://localhost:5173","http://localhost:5174")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());
@@ -23,8 +26,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(o =>
 });
 
 builder.Services.AddScoped<IImageInterface, ImageRepository>();
+builder.Services.AddScoped<IUserInterface, UserRepository>();
 
 var app = builder.Build();
+
+
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
+
 
 if (app.Environment.IsDevelopment())
 {

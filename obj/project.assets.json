@@ -7692,11 +7692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jeko/Desktop/map_project/guesser_api/server.csproj",
+      "projectUniqueName": "/home/jeko/Desktop/map/guesser_api/server.csproj",
       "projectName": "server",
-      "projectPath": "/home/jeko/Desktop/map_project/guesser_api/server.csproj",
+      "projectPath": "/home/jeko/Desktop/map/guesser_api/server.csproj",
       "packagesPath": "/home/jeko/.nuget/packages/",
-      "outputPath": "/home/jeko/Desktop/map_project/guesser_api/obj/",
+      "outputPath": "/home/jeko/Desktop/map/guesser_api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jeko/.nuget/NuGet/NuGet.Config"

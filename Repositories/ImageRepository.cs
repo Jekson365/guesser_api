@@ -41,10 +41,12 @@ namespace server.Repositories
                     TookBy = createImageDto.TookBy,
                     Lat = createImageDto.Lat,
                     Long = createImageDto.Long,
+                    
                     Sender = new Sender
                     {
                         Name = createImageDto.Sender.Name,
-                        Surname = createImageDto.Sender.Surname
+                        Surname = createImageDto.Sender.Surname,
+                        InstagramUrl = createImageDto.Sender.InstagramUrl
                     }
                 };
                 await _context.Images.AddAsync(newImageRecord);
@@ -56,7 +58,7 @@ namespace server.Repositories
 
         public async Task<List<Image>> GetAll()
         {
-            var images = await _context.Images.ToListAsync();
+            var images = await _context.Images.Include(s => s.Sender).ToListAsync();
 
             return images;
         }

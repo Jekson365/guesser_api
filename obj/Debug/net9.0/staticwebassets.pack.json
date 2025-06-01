@@ -1,8 +1,56 @@
 {
   "Files": [
     {
-      "Id": "/home/jeko/Desktop/map_project/guesser_api/wwwroot/images/0690ee69-9eb6-4cfc-8df3-1654c31c3682_London_Skyline_(125508655).jpeg",
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/0690ee69-9eb6-4cfc-8df3-1654c31c3682_London_Skyline_(125508655).jpeg",
       "PackagePath": "staticwebassets/images/0690ee69-9eb6-4cfc-8df3-1654c31c3682_London_Skyline_(125508655).jpeg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/06dcd50c-323c-4d9a-9f92-bf58435db43d_bbb.jpg",
+      "PackagePath": "staticwebassets/images/06dcd50c-323c-4d9a-9f92-bf58435db43d_bbb.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/26874247-1285-467b-865e-b222fb3b61fe_bbb.jpg",
+      "PackagePath": "staticwebassets/images/26874247-1285-467b-865e-b222fb3b61fe_bbb.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/2b6b8a40-7f15-4d8b-bff6-55a3fc38854c_GERGETI.jpg",
+      "PackagePath": "staticwebassets/images/2b6b8a40-7f15-4d8b-bff6-55a3fc38854c_GERGETI.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/2d7d7ac7-7452-4009-bf60-323b109980b5_pexels-francesco-ungaro-1525041.jpg",
+      "PackagePath": "staticwebassets/images/2d7d7ac7-7452-4009-bf60-323b109980b5_pexels-francesco-ungaro-1525041.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/51b302ee-4843-4200-8d47-e6dcbb0a8d8c_AAAABe_oVLN-Khd4Gb-I2vb5ob3cUwYrx3kYlr8OpLMCAqE3a_5_JSyJ4JeZl6QSjcxrKLOWlNhEbGpoRDpnyxIM7bbINAM63pPA3eCt.jpg",
+      "PackagePath": "staticwebassets/images/51b302ee-4843-4200-8d47-e6dcbb0a8d8c_AAAABe_oVLN-Khd4Gb-I2vb5ob3cUwYrx3kYlr8OpLMCAqE3a_5_JSyJ4JeZl6QSjcxrKLOWlNhEbGpoRDpnyxIM7bbINAM63pPA3eCt.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/7120540e-9628-4e4a-b389-c882c3aec81b_bbb.jpg",
+      "PackagePath": "staticwebassets/images/7120540e-9628-4e4a-b389-c882c3aec81b_bbb.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/71363f17-c058-4ba4-93de-c9501de5d809_bbb.jpg",
+      "PackagePath": "staticwebassets/images/71363f17-c058-4ba4-93de-c9501de5d809_bbb.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/7e69445e-6074-4047-8511-6765464e64b6_lomis.jpg",
+      "PackagePath": "staticwebassets/images/7e69445e-6074-4047-8511-6765464e64b6_lomis.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/7feb5483-09d4-41b8-95c7-b8bcd62077a6_pexels-francesco-ungaro-1525041.jpg",
+      "PackagePath": "staticwebassets/images/7feb5483-09d4-41b8-95c7-b8bcd62077a6_pexels-francesco-ungaro-1525041.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/ba7a9240-17e1-4127-83f9-900c7b174048_rr.jpg",
+      "PackagePath": "staticwebassets/images/ba7a9240-17e1-4127-83f9-900c7b174048_rr.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/f2973046-24e3-4607-acef-438b9c1383bf_AAAABe_oVLN-Khd4Gb-I2vb5ob3cUwYrx3kYlr8OpLMCAqE3a_5_JSyJ4JeZl6QSjcxrKLOWlNhEbGpoRDpnyxIM7bbINAM63pPA3eCt.jpg",
+      "PackagePath": "staticwebassets/images/f2973046-24e3-4607-acef-438b9c1383bf_AAAABe_oVLN-Khd4Gb-I2vb5ob3cUwYrx3kYlr8OpLMCAqE3a_5_JSyJ4JeZl6QSjcxrKLOWlNhEbGpoRDpnyxIM7bbINAM63pPA3eCt.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/f5cc12ad-d7e4-4a83-9269-bea5f0be22fd_rr.jpg",
+      "PackagePath": "staticwebassets/images/f5cc12ad-d7e4-4a83-9269-bea5f0be22fd_rr.jpg"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.server.props",
