@@ -44,5 +44,11 @@ namespace guesser_api.Controllers
             User user = await _userRepository.UpdateScore(updateScoreDto);
             return Ok(user);
         }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllUser()
+        {
+            return Ok(await _userRepository.GetUsers());
+        }
     }
 }

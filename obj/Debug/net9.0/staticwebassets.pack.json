@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/images/06dcd50c-323c-4d9a-9f92-bf58435db43d_bbb.jpg"
     },
     {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/23b0258c-e419-4e38-9c71-c0e9a0372e36_lomis.jpg",
+      "PackagePath": "staticwebassets/images/23b0258c-e419-4e38-9c71-c0e9a0372e36_lomis.jpg"
+    },
+    {
       "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/26874247-1285-467b-865e-b222fb3b61fe_bbb.jpg",
       "PackagePath": "staticwebassets/images/26874247-1285-467b-865e-b222fb3b61fe_bbb.jpg"
     },
@@ -19,6 +23,14 @@
     {
       "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/2d7d7ac7-7452-4009-bf60-323b109980b5_pexels-francesco-ungaro-1525041.jpg",
       "PackagePath": "staticwebassets/images/2d7d7ac7-7452-4009-bf60-323b109980b5_pexels-francesco-ungaro-1525041.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/3b8a6c87-36a3-4e47-88e5-819019301b9b_lomis.jpg",
+      "PackagePath": "staticwebassets/images/3b8a6c87-36a3-4e47-88e5-819019301b9b_lomis.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/5137533a-875d-4255-a006-bbbc6791a083_rr.jpg",
+      "PackagePath": "staticwebassets/images/5137533a-875d-4255-a006-bbbc6791a083_rr.jpg"
     },
     {
       "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/51b302ee-4843-4200-8d47-e6dcbb0a8d8c_AAAABe_oVLN-Khd4Gb-I2vb5ob3cUwYrx3kYlr8OpLMCAqE3a_5_JSyJ4JeZl6QSjcxrKLOWlNhEbGpoRDpnyxIM7bbINAM63pPA3eCt.jpg",
@@ -39,6 +51,10 @@
     {
       "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/7feb5483-09d4-41b8-95c7-b8bcd62077a6_pexels-francesco-ungaro-1525041.jpg",
       "PackagePath": "staticwebassets/images/7feb5483-09d4-41b8-95c7-b8bcd62077a6_pexels-francesco-ungaro-1525041.jpg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/9a04fc2b-9874-45a0-aa75-9b2ea3905ec5_GERGETI.jpg",
+      "PackagePath": "staticwebassets/images/9a04fc2b-9874-45a0-aa75-9b2ea3905ec5_GERGETI.jpg"
     },
     {
       "Id": "/home/jeko/Desktop/map/guesser_api/wwwroot/images/ba7a9240-17e1-4127-83f9-900c7b174048_rr.jpg",

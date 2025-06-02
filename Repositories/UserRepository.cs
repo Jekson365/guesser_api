@@ -28,6 +28,14 @@ namespace guesser_api.Repositories
             }
             return user;
         }
+
+        public async Task<List<User>> GetUsers()
+        {
+            var users = await _db.Users.ToListAsync();
+
+            return users;
+        }
+
         public async Task<User> UpdateScore(UpdateScoreDto updateScoreDto)
         {
             User user = await _db.Users.Where(u => u.Name == updateScoreDto.UserName).FirstOrDefaultAsync();

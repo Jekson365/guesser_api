@@ -8,5 +8,6 @@ namespace guesser_api.Interfaces
         public Task<User> Create(User user);
         public Task<User?> GetCurrent(string ipAddress);
         public Task<User> UpdateScore(UpdateScoreDto updateScoreDto);
+        public Task<List<User>> GetUsers();
     }
 }
